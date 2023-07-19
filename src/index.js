@@ -14,8 +14,8 @@ const PORT = process.env.PORT || 3003;
 app.get("/", (req, res) => {
   res.send({
     message:
-      "Welcome please refer to the API Documentation at https://https://github.com/asraf4786/E-Commerce-API/blob/master/README.md",
-    test: "CI/CD Working! Demo"
+      "Welcome please refer to the API Documentation at https://github.com/asraf4786/E-Commerce-API/blob/main/README.md",
+    test: "CI/CD Working! Demo""
   });
 });
 
